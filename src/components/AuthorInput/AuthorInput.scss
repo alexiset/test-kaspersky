@@ -1,0 +1,17 @@
+.block {
+	display: flex;
+	width: 100%;
+}
+
+.firstName,
+.lastName {
+	width: 50% !important;
+}
+
+.firstName {
+	margin-right: 30px;
+}
+
+.remove {
+	margin: 15px 0 0 15px !important;
+}

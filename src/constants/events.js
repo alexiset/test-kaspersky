@@ -1,0 +1,6 @@
+export const events = {
+	BOOKS_SORT: 'BOOKS_SORT',
+	BOOKS_ADD: 'BOOKS_ADD',
+	BOOKS_EDIT: 'BOOKS_EDIT',
+	BOOKS_REMOVE: 'BOOKS_REMOVE',
+};

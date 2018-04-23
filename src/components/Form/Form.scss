@@ -1,0 +1,77 @@
+.block {}
+
+.fields {
+	border: none;
+}
+
+.input {
+	width: 100% !important;
+}
+
+.authors {
+	display: block;
+	width: 100%;
+
+	&Row {
+		padding-bottom: 0 !important;
+	}
+
+	&Add {
+		margin-top: 20px;
+	}
+
+	&Error {
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 12px;
+		line-height: 12px;
+		color: rgb(244, 67, 54);
+	}
+}
+
+.preview {
+	display: flex;
+	align-items: center;
+
+	&Picture {
+		width: 200px;
+		height: 285px;
+		margin-right: 40px;
+		background-color: #cccccc;
+		background-size: cover;
+		background-position: center;
+	}
+
+	&Button {
+		height: 36px;
+	}
+
+	&File {
+		cursor: pointer;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		width: 100%;
+		opacity: 0;
+	}
+}
+
+
+.fields {
+	dl {
+		margin: 0;
+		padding: 10px 0 20px;
+	}
+
+	dt {
+		width: 120px;
+	}
+
+	dd {
+		margin: 0;
+		padding: 0;
+	}
+}

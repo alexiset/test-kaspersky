@@ -1,0 +1,29 @@
+.block {
+	margin: 0 auto;
+	width: 880px;
+}
+
+.orderBy {
+	margin-bottom: 10px;
+}
+
+.actions {
+	white-space: nowrap;
+}
+
+.preview {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-color: #ccc;
+}
+
+.empty {
+	margin-top: 100px;
+	text-align: center;
+	color: #ccc;
+}
